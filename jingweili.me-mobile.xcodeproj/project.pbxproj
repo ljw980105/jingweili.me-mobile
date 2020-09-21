@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048188A22518331B000838B5 /* jingweili_me_mobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048188A12518331B000838B5 /* jingweili_me_mobileApp.swift */; };
+		048188A42518331B000838B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048188A32518331B000838B5 /* ContentView.swift */; };
+		048188A62518331E000838B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048188A52518331E000838B5 /* Assets.xcassets */; };
+		048188A92518331E000838B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048188A82518331E000838B5 /* Preview Assets.xcassets */; };
+		048188B42518331E000838B5 /* jingweili_me_mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048188B32518331E000838B5 /* jingweili_me_mobileTests.swift */; };
+		048188BF2518331E000838B5 /* jingweili_me_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048188BE2518331E000838B5 /* jingweili_me_mobileUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048188B02518331E000838B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048188962518331B000838B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0481889D2518331B000838B5;
+			remoteInfo = "jingweili.me-mobile";
+		};
+		048188BB2518331E000838B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048188962518331B000838B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0481889D2518331B000838B5;
+			remoteInfo = "jingweili.me-mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0481889E2518331B000838B5 /* jingweili.me-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jingweili.me-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048188A12518331B000838B5 /* jingweili_me_mobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jingweili_me_mobileApp.swift; sourceTree = "<group>"; };
+		048188A32518331B000838B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		048188A52518331E000838B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048188A82518331E000838B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		048188AA2518331E000838B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048188AF2518331E000838B5 /* jingweili.me-mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jingweili.me-mobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048188B32518331E000838B5 /* jingweili_me_mobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jingweili_me_mobileTests.swift; sourceTree = "<group>"; };
+		048188B52518331E000838B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048188BA2518331E000838B5 /* jingweili.me-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jingweili.me-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048188BE2518331E000838B5 /* jingweili_me_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jingweili_me_mobileUITests.swift; sourceTree = "<group>"; };
+		048188C02518331E000838B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0481889B2518331B000838B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048188AC2518331E000838B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048188B72518331E000838B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048188952518331B000838B5 = {
+			isa = PBXGroup;
+			children = (
+				048188A02518331B000838B5 /* jingweili.me-mobile */,
+				048188B22518331E000838B5 /* jingweili.me-mobileTests */,
+				048188BD2518331E000838B5 /* jingweili.me-mobileUITests */,
+				0481889F2518331B000838B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0481889F2518331B000838B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0481889E2518331B000838B5 /* jingweili.me-mobile.app */,
+				048188AF2518331E000838B5 /* jingweili.me-mobileTests.xctest */,
+				048188BA2518331E000838B5 /* jingweili.me-mobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048188A02518331B000838B5 /* jingweili.me-mobile */ = {
+			isa = PBXGroup;
+			children = (
+				048188A12518331B000838B5 /* jingweili_me_mobileApp.swift */,
+				048188A32518331B000838B5 /* ContentView.swift */,
+				048188A52518331E000838B5 /* Assets.xcassets */,
+				048188AA2518331E000838B5 /* Info.plist */,
+				048188A72518331E000838B5 /* Preview Content */,
+			);
+			path = "jingweili.me-mobile";
+			sourceTree = "<group>";
+		};
+		048188A72518331E000838B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				048188A82518331E000838B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		048188B22518331E000838B5 /* jingweili.me-mobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				048188B32518331E000838B5 /* jingweili_me_mobileTests.swift */,
+				048188B52518331E000838B5 /* Info.plist */,
+			);
+			path = "jingweili.me-mobileTests";
+			sourceTree = "<group>";
+		};
+		048188BD2518331E000838B5 /* jingweili.me-mobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				048188BE2518331E000838B5 /* jingweili_me_mobileUITests.swift */,
+				048188C02518331E000838B5 /* Info.plist */,
+			);
+			path = "jingweili.me-mobileUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0481889D2518331B000838B5 /* jingweili.me-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048188C32518331E000838B5 /* Build configuration list for PBXNativeTarget "jingweili.me-mobile" */;
+			buildPhases = (
+				0481889A2518331B000838B5 /* Sources */,
+				0481889B2518331B000838B5 /* Frameworks */,
+				0481889C2518331B000838B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jingweili.me-mobile";
+			productName = "jingweili.me-mobile";
+			productReference = 0481889E2518331B000838B5 /* jingweili.me-mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048188AE2518331E000838B5 /* jingweili.me-mobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048188C62518331E000838B5 /* Build configuration list for PBXNativeTarget "jingweili.me-mobileTests" */;
+			buildPhases = (
+				048188AB2518331E000838B5 /* Sources */,
+				048188AC2518331E000838B5 /* Frameworks */,
+				048188AD2518331E000838B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048188B12518331E000838B5 /* PBXTargetDependency */,
+			);
+			name = "jingweili.me-mobileTests";
+			productName = "jingweili.me-mobileTests";
+			productReference = 048188AF2518331E000838B5 /* jingweili.me-mobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		048188B92518331E000838B5 /* jingweili.me-mobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048188C92518331E000838B5 /* Build configuration list for PBXNativeTarget "jingweili.me-mobileUITests" */;
+			buildPhases = (
+				048188B62518331E000838B5 /* Sources */,
+				048188B72518331E000838B5 /* Frameworks */,
+				048188B82518331E000838B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048188BC2518331E000838B5 /* PBXTargetDependency */,
+			);
+			name = "jingweili.me-mobileUITests";
+			productName = "jingweili.me-mobileUITests";
+			productReference = 048188BA2518331E000838B5 /* jingweili.me-mobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048188962518331B000838B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					0481889D2518331B000838B5 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					048188AE2518331E000838B5 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 0481889D2518331B000838B5;
+					};
+					048188B92518331E000838B5 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 0481889D2518331B000838B5;
+					};
+				};
+			};
+			buildConfigurationList = 048188992518331B000838B5 /* Build configuration list for PBXProject "jingweili.me-mobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048188952518331B000838B5;
+			productRefGroup = 0481889F2518331B000838B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0481889D2518331B000838B5 /* jingweili.me-mobile */,
+				048188AE2518331E000838B5 /* jingweili.me-mobileTests */,
+				048188B92518331E000838B5 /* jingweili.me-mobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0481889C2518331B000838B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048188A92518331E000838B5 /* Preview Assets.xcassets in Resources */,
+				048188A62518331E000838B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048188AD2518331E000838B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048188B82518331E000838B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0481889A2518331B000838B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048188A42518331B000838B5 /* ContentView.swift in Sources */,
+				048188A22518331B000838B5 /* jingweili_me_mobileApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048188AB2518331E000838B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048188B42518331E000838B5 /* jingweili_me_mobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048188B62518331E000838B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048188BF2518331E000838B5 /* jingweili_me_mobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048188B12518331E000838B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0481889D2518331B000838B5 /* jingweili.me-mobile */;
+			targetProxy = 048188B02518331E000838B5 /* PBXContainerItemProxy */;
+		};
+		048188BC2518331E000838B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0481889D2518331B000838B5 /* jingweili.me-mobile */;
+			targetProxy = 048188BB2518331E000838B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		048188C12518331E000838B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		048188C22518331E000838B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048188C42518331E000838B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"jingweili.me-mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = NDBTK98VL3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "jingweili.me-mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jingweili.jingweili-me-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		048188C52518331E000838B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"jingweili.me-mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = NDBTK98VL3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "jingweili.me-mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jingweili.jingweili-me-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		048188C72518331E000838B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDBTK98VL3;
+				INFOPLIST_FILE = "jingweili.me-mobileTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jingweili.jingweili-me-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jingweili.me-mobile.app/jingweili.me-mobile";
+			};
+			name = Debug;
+		};
+		048188C82518331E000838B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDBTK98VL3;
+				INFOPLIST_FILE = "jingweili.me-mobileTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jingweili.jingweili-me-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jingweili.me-mobile.app/jingweili.me-mobile";
+			};
+			name = Release;
+		};
+		048188CA2518331E000838B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDBTK98VL3;
+				INFOPLIST_FILE = "jingweili.me-mobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jingweili.jingweili-me-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "jingweili.me-mobile";
+			};
+			name = Debug;
+		};
+		048188CB2518331E000838B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDBTK98VL3;
+				INFOPLIST_FILE = "jingweili.me-mobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jingweili.jingweili-me-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "jingweili.me-mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048188992518331B000838B5 /* Build configuration list for PBXProject "jingweili.me-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048188C12518331E000838B5 /* Debug */,
+				048188C22518331E000838B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048188C32518331E000838B5 /* Build configuration list for PBXNativeTarget "jingweili.me-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048188C42518331E000838B5 /* Debug */,
+				048188C52518331E000838B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048188C62518331E000838B5 /* Build configuration list for PBXNativeTarget "jingweili.me-mobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048188C72518331E000838B5 /* Debug */,
+				048188C82518331E000838B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048188C92518331E000838B5 /* Build configuration list for PBXNativeTarget "jingweili.me-mobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048188CA2518331E000838B5 /* Debug */,
+				048188CB2518331E000838B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048188962518331B000838B5 /* Project object */;
+}

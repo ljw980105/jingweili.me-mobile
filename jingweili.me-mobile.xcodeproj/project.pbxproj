@@ -3,16 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0433D78D25198F9D007CE573 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0433D78C25198F9D007CE573 /* Alamofire */; };
+		0433D79225198FDC007CE573 /* PersonalWebsiteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433D79125198FDC007CE573 /* PersonalWebsiteAPI.swift */; };
+		0433D7A1251991E5007CE573 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433D7A0251991E5007CE573 /* LoginViewModel.swift */; };
+		04380A17256A393000C82C4A /* PersonalWebsiteModels in Frameworks */ = {isa = PBXBuildFile; productRef = 04380A16256A393000C82C4A /* PersonalWebsiteModels */; };
+		04380A34256A3EEB00C82C4A /* Dictionary+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04380A33256A3EEB00C82C4A /* Dictionary+Networking.swift */; };
 		048188A22518331B000838B5 /* jingweili_me_mobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048188A12518331B000838B5 /* jingweili_me_mobileApp.swift */; };
 		048188A42518331B000838B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048188A32518331B000838B5 /* ContentView.swift */; };
 		048188A62518331E000838B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048188A52518331E000838B5 /* Assets.xcassets */; };
 		048188A92518331E000838B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048188A82518331E000838B5 /* Preview Assets.xcassets */; };
 		048188B42518331E000838B5 /* jingweili_me_mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048188B32518331E000838B5 /* jingweili_me_mobileTests.swift */; };
 		048188BF2518331E000838B5 /* jingweili_me_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048188BE2518331E000838B5 /* jingweili_me_mobileUITests.swift */; };
+		048188DD25183A9B000838B5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048188DC25183A9B000838B5 /* LoginView.swift */; };
+		04A3E671256AE5F400A17324 /* SessionToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3E670256AE5F400A17324 /* SessionToken.swift */; };
+		04A3E67A256AF1A400A17324 /* FileBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3E679256AF1A400A17324 /* FileBrowserView.swift */; };
+		04A3E680256AF36200A17324 /* GetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3E67F256AF36200A17324 /* GetRequest.swift */; };
+		04A3E688256AFD0C00A17324 /* FileBrowserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3E687256AFD0C00A17324 /* FileBrowserViewModel.swift */; };
+		04B1D3AC25967F6800733FEE /* FileCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1D3AB25967F6800733FEE /* FileCellView.swift */; };
+		04B1D3BB25968E0600733FEE /* FileToBrowse+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1D3BA25968E0600733FEE /* FileToBrowse+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0433D79125198FDC007CE573 /* PersonalWebsiteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalWebsiteAPI.swift; sourceTree = "<group>"; };
+		0433D7A0251991E5007CE573 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		04380A33256A3EEB00C82C4A /* Dictionary+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Networking.swift"; sourceTree = "<group>"; };
 		0481889E2518331B000838B5 /* jingweili.me-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jingweili.me-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		048188A12518331B000838B5 /* jingweili_me_mobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jingweili_me_mobileApp.swift; sourceTree = "<group>"; };
 		048188A32518331B000838B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +60,13 @@
 		048188BA2518331E000838B5 /* jingweili.me-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jingweili.me-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		048188BE2518331E000838B5 /* jingweili_me_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jingweili_me_mobileUITests.swift; sourceTree = "<group>"; };
 		048188C02518331E000838B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048188DC25183A9B000838B5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		04A3E670256AE5F400A17324 /* SessionToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionToken.swift; sourceTree = "<group>"; };
+		04A3E679256AF1A400A17324 /* FileBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBrowserView.swift; sourceTree = "<group>"; };
+		04A3E67F256AF36200A17324 /* GetRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRequest.swift; sourceTree = "<group>"; };
+		04A3E687256AFD0C00A17324 /* FileBrowserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBrowserViewModel.swift; sourceTree = "<group>"; };
+		04B1D3AB25967F6800733FEE /* FileCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCellView.swift; sourceTree = "<group>"; };
+		04B1D3BA25968E0600733FEE /* FileToBrowse+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileToBrowse+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04380A17256A393000C82C4A /* PersonalWebsiteModels in Frameworks */,
+				0433D78D25198F9D007CE573 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +96,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0433D78A25198F5E007CE573 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0433D79125198FDC007CE573 /* PersonalWebsiteAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		04380A1B256A3B2600C82C4A /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04A3E67E256AF33A00A17324 /* Networking */,
+				04380A1C256A3B3700C82C4A /* Extensions */,
+				0433D78A25198F5E007CE573 /* API */,
+				04A3E670256AE5F400A17324 /* SessionToken.swift */,
+			);
+			path = "Model Classes";
+			sourceTree = "<group>";
+		};
+		04380A1C256A3B3700C82C4A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04380A33256A3EEB00C82C4A /* Dictionary+Networking.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		048188952518331B000838B5 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +146,9 @@
 		048188A02518331B000838B5 /* jingweili.me-mobile */ = {
 			isa = PBXGroup;
 			children = (
+				04A3E678256AF18C00A17324 /* File Browser */,
+				04380A1B256A3B2600C82C4A /* Model Classes */,
+				048188DB25183A87000838B5 /* Login */,
 				048188A12518331B000838B5 /* jingweili_me_mobileApp.swift */,
 				048188A32518331B000838B5 /* ContentView.swift */,
 				048188A52518331E000838B5 /* Assets.xcassets */,
@@ -130,6 +184,42 @@
 			path = "jingweili.me-mobileUITests";
 			sourceTree = "<group>";
 		};
+		048188DB25183A87000838B5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				048188DC25183A9B000838B5 /* LoginView.swift */,
+				0433D7A0251991E5007CE573 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		04A3E678256AF18C00A17324 /* File Browser */ = {
+			isa = PBXGroup;
+			children = (
+				04B1D3B625968DAA00733FEE /* Models */,
+				04A3E679256AF1A400A17324 /* FileBrowserView.swift */,
+				04A3E687256AFD0C00A17324 /* FileBrowserViewModel.swift */,
+				04B1D3AB25967F6800733FEE /* FileCellView.swift */,
+			);
+			path = "File Browser";
+			sourceTree = "<group>";
+		};
+		04A3E67E256AF33A00A17324 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				04A3E67F256AF36200A17324 /* GetRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		04B1D3B625968DAA00733FEE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04B1D3BA25968E0600733FEE /* FileToBrowse+Extensions.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +236,10 @@
 			dependencies = (
 			);
 			name = "jingweili.me-mobile";
+			packageProductDependencies = (
+				0433D78C25198F9D007CE573 /* Alamofire */,
+				04380A16256A393000C82C4A /* PersonalWebsiteModels */,
+			);
 			productName = "jingweili.me-mobile";
 			productReference = 0481889E2518331B000838B5 /* jingweili.me-mobile.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +311,10 @@
 				Base,
 			);
 			mainGroup = 048188952518331B000838B5;
+			packageReferences = (
+				0433D78B25198F9D007CE573 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				04380A15256A393000C82C4A /* XCRemoteSwiftPackageReference "jingweili.me-models" */,
+			);
 			productRefGroup = 0481889F2518331B000838B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +357,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B1D3BB25968E0600733FEE /* FileToBrowse+Extensions.swift in Sources */,
+				0433D79225198FDC007CE573 /* PersonalWebsiteAPI.swift in Sources */,
+				04B1D3AC25967F6800733FEE /* FileCellView.swift in Sources */,
+				048188DD25183A9B000838B5 /* LoginView.swift in Sources */,
+				04A3E671256AE5F400A17324 /* SessionToken.swift in Sources */,
 				048188A42518331B000838B5 /* ContentView.swift in Sources */,
 				048188A22518331B000838B5 /* jingweili_me_mobileApp.swift in Sources */,
+				04380A34256A3EEB00C82C4A /* Dictionary+Networking.swift in Sources */,
+				04A3E680256AF36200A17324 /* GetRequest.swift in Sources */,
+				04A3E67A256AF1A400A17324 /* FileBrowserView.swift in Sources */,
+				0433D7A1251991E5007CE573 /* LoginViewModel.swift in Sources */,
+				04A3E688256AFD0C00A17324 /* FileBrowserViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -402,7 +510,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -580,6 +688,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0433D78B25198F9D007CE573 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.2;
+			};
+		};
+		04380A15256A393000C82C4A /* XCRemoteSwiftPackageReference "jingweili.me-models" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ljw980105/jingweili.me-models.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0433D78C25198F9D007CE573 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0433D78B25198F9D007CE573 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		04380A16256A393000C82C4A /* PersonalWebsiteModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04380A15256A393000C82C4A /* XCRemoteSwiftPackageReference "jingweili.me-models" */;
+			productName = PersonalWebsiteModels;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 048188962518331B000838B5 /* Project object */;
 }

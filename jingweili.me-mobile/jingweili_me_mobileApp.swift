@@ -11,7 +11,13 @@ import SwiftUI
 struct jingweili_me_mobileApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
+    }
+}
+
+struct jingweili_me_mobileApp_Previews: PreviewProvider {
+    static var previews: some View {
+        LoginView()
     }
 }

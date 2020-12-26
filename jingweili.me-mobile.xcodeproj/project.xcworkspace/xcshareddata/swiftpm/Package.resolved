@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "becd9a729a37bdbef5bc39dc3c702b99f9e3d046",
+          "version": "5.2.2"
+        }
+      },
+      {
+        "package": "jingweili.me-models",
+        "repositoryURL": "https://github.com/ljw980105/jingweili.me-models.git",
+        "state": {
+          "branch": null,
+          "revision": "bb18d12d8f2db0340ee77b22960f0e5899a2abb4",
+          "version": "1.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

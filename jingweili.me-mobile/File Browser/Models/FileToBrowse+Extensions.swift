@@ -9,26 +9,52 @@ import Foundation
 import PersonalWebsiteModels
 
 extension FileToBrowse {
+    enum GeneralFileType {
+        case image
+        case pdf
+        case other
+    }
+    
+    static let dateFormatter: DateFormatter = {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        return dateFormatter
+    }()
+    
+    static let byteFormatter: ByteCountFormatter = {
+        let byteFormatter = ByteCountFormatter()
+        byteFormatter.countStyle = .file
+        return byteFormatter
+    }()
+    
     var imageName: String {
-        switch type {
-        case "jpg", "png", "jpeg", "gif":
+        switch fileType {
+        case .image:
             return "imageIcon"
-        case "pdf":
+        case .pdf:
             return "pdfIcon"
         default:
             return "OtherFileIcon"
         }
     }
     
+    var fileType: GeneralFileType {
+        switch type {
+        case "jpg", "png", "jpeg", "gif":
+            return .image
+        case "pdf":
+            return .pdf
+        default:
+            return .other
+        }
+    }
+    
     var createdDateString: String {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy-MM-dd"
-        return dateFormatter.string(from: createdDate ?? Date())
+        FileToBrowse.dateFormatter.string(from: createdDate ?? Date())
     }
     
     var fileSizeString: String {
-        let byteFormatter = ByteCountFormatter()
-        byteFormatter.countStyle = .file
-        return byteFormatter.string(fromByteCount: fileSize ?? 0)
+        FileToBrowse.byteFormatter.string(fromByteCount: fileSize ?? 0)
     }
 }
+ 

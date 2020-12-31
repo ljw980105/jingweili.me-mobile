@@ -31,4 +31,14 @@ enum PersonalWebsiteAPI {
             .needAuthentication()
             .get(resultType: [FileToBrowse].self)
     }
+    
+    static func URLForPublicFile(named name: String) -> URL {
+        let newName = name.replacingOccurrences(of: " ", with: "%20")
+        return URL(string: "\(apiRoot)resources/\(newName)")!
+    }
+    
+    static func URLForPrivateFile(named name: String) -> URL {
+        let newName = name.replacingOccurrences(of: " ", with: "%20")
+        return URL(string: "\(apiRoot)/api/stream-file?name=\(newName)&directory=private")!
+    }
 }

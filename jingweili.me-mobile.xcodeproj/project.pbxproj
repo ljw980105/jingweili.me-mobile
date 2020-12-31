@@ -25,6 +25,12 @@
 		04A3E688256AFD0C00A17324 /* FileBrowserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3E687256AFD0C00A17324 /* FileBrowserViewModel.swift */; };
 		04B1D3AC25967F6800733FEE /* FileCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1D3AB25967F6800733FEE /* FileCellView.swift */; };
 		04B1D3BB25968E0600733FEE /* FileToBrowse+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1D3BA25968E0600733FEE /* FileToBrowse+Extensions.swift */; };
+		04B1D3C1259D396E00733FEE /* GSImageViewerController in Frameworks */ = {isa = PBXBuildFile; productRef = 04B1D3C0259D396E00733FEE /* GSImageViewerController */; };
+		04B1D3CA259D4CBF00733FEE /* FileViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1D3C9259D4CBF00733FEE /* FileViewerView.swift */; };
+		04B1D3D2259D559400733FEE /* DownloadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1D3D1259D559400733FEE /* DownloadRequest.swift */; };
+		04B1D3D9259D580700733FEE /* FileViewWrapperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1D3D7259D580700733FEE /* FileViewWrapperViewController.swift */; };
+		04B1D3DA259D580700733FEE /* FileViewWrapperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B1D3D8259D580700733FEE /* FileViewWrapperViewController.xib */; };
+		04BE5145259D6ADF00EC6DDA /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE5144259D6ADF00EC6DDA /* UIViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +73,11 @@
 		04A3E687256AFD0C00A17324 /* FileBrowserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBrowserViewModel.swift; sourceTree = "<group>"; };
 		04B1D3AB25967F6800733FEE /* FileCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCellView.swift; sourceTree = "<group>"; };
 		04B1D3BA25968E0600733FEE /* FileToBrowse+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileToBrowse+Extensions.swift"; sourceTree = "<group>"; };
+		04B1D3C9259D4CBF00733FEE /* FileViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewerView.swift; sourceTree = "<group>"; };
+		04B1D3D1259D559400733FEE /* DownloadRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadRequest.swift; sourceTree = "<group>"; };
+		04B1D3D7259D580700733FEE /* FileViewWrapperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewWrapperViewController.swift; sourceTree = "<group>"; };
+		04B1D3D8259D580700733FEE /* FileViewWrapperViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FileViewWrapperViewController.xib; sourceTree = "<group>"; };
+		04BE5144259D6ADF00EC6DDA /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B1D3C1259D396E00733FEE /* GSImageViewerController in Frameworks */,
 				04380A17256A393000C82C4A /* PersonalWebsiteModels in Frameworks */,
 				0433D78D25198F9D007CE573 /* Alamofire in Frameworks */,
 			);
@@ -119,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				04380A33256A3EEB00C82C4A /* Dictionary+Networking.swift */,
+				04BE5144259D6ADF00EC6DDA /* UIViewController+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -196,6 +209,7 @@
 		04A3E678256AF18C00A17324 /* File Browser */ = {
 			isa = PBXGroup;
 			children = (
+				04B1D3C5259D3A4800733FEE /* File Viewers */,
 				04B1D3B625968DAA00733FEE /* Models */,
 				04A3E679256AF1A400A17324 /* FileBrowserView.swift */,
 				04A3E687256AFD0C00A17324 /* FileBrowserViewModel.swift */,
@@ -208,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				04A3E67F256AF36200A17324 /* GetRequest.swift */,
+				04B1D3D1259D559400733FEE /* DownloadRequest.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -218,6 +233,16 @@
 				04B1D3BA25968E0600733FEE /* FileToBrowse+Extensions.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		04B1D3C5259D3A4800733FEE /* File Viewers */ = {
+			isa = PBXGroup;
+			children = (
+				04B1D3C9259D4CBF00733FEE /* FileViewerView.swift */,
+				04B1D3D7259D580700733FEE /* FileViewWrapperViewController.swift */,
+				04B1D3D8259D580700733FEE /* FileViewWrapperViewController.xib */,
+			);
+			path = "File Viewers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +264,7 @@
 			packageProductDependencies = (
 				0433D78C25198F9D007CE573 /* Alamofire */,
 				04380A16256A393000C82C4A /* PersonalWebsiteModels */,
+				04B1D3C0259D396E00733FEE /* GSImageViewerController */,
 			);
 			productName = "jingweili.me-mobile";
 			productReference = 0481889E2518331B000838B5 /* jingweili.me-mobile.app */;
@@ -314,6 +340,7 @@
 			packageReferences = (
 				0433D78B25198F9D007CE573 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				04380A15256A393000C82C4A /* XCRemoteSwiftPackageReference "jingweili.me-models" */,
+				04B1D3BF259D396E00733FEE /* XCRemoteSwiftPackageReference "GSImageViewerController" */,
 			);
 			productRefGroup = 0481889F2518331B000838B5 /* Products */;
 			projectDirPath = "";
@@ -332,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				048188A92518331E000838B5 /* Preview Assets.xcassets in Resources */,
+				04B1D3DA259D580700733FEE /* FileViewWrapperViewController.xib in Resources */,
 				048188A62518331E000838B5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,17 +386,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B1D3BB25968E0600733FEE /* FileToBrowse+Extensions.swift in Sources */,
+				04B1D3D9259D580700733FEE /* FileViewWrapperViewController.swift in Sources */,
 				0433D79225198FDC007CE573 /* PersonalWebsiteAPI.swift in Sources */,
 				04B1D3AC25967F6800733FEE /* FileCellView.swift in Sources */,
 				048188DD25183A9B000838B5 /* LoginView.swift in Sources */,
 				04A3E671256AE5F400A17324 /* SessionToken.swift in Sources */,
 				048188A42518331B000838B5 /* ContentView.swift in Sources */,
 				048188A22518331B000838B5 /* jingweili_me_mobileApp.swift in Sources */,
+				04B1D3D2259D559400733FEE /* DownloadRequest.swift in Sources */,
 				04380A34256A3EEB00C82C4A /* Dictionary+Networking.swift in Sources */,
 				04A3E680256AF36200A17324 /* GetRequest.swift in Sources */,
 				04A3E67A256AF1A400A17324 /* FileBrowserView.swift in Sources */,
+				04BE5145259D6ADF00EC6DDA /* UIViewController+Extensions.swift in Sources */,
 				0433D7A1251991E5007CE573 /* LoginViewModel.swift in Sources */,
 				04A3E688256AFD0C00A17324 /* FileBrowserViewModel.swift in Sources */,
+				04B1D3CA259D4CBF00733FEE /* FileViewerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,6 +738,14 @@
 				minimumVersion = 1.1.0;
 			};
 		};
+		04B1D3BF259D396E00733FEE /* XCRemoteSwiftPackageReference "GSImageViewerController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wxxsw/GSImageViewerController.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -718,6 +758,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 04380A15256A393000C82C4A /* XCRemoteSwiftPackageReference "jingweili.me-models" */;
 			productName = PersonalWebsiteModels;
+		};
+		04B1D3C0259D396E00733FEE /* GSImageViewerController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04B1D3BF259D396E00733FEE /* XCRemoteSwiftPackageReference "GSImageViewerController" */;
+			productName = GSImageViewerController;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "GSImageViewerController",
+        "repositoryURL": "https://github.com/wxxsw/GSImageViewerController.git",
+        "state": {
+          "branch": null,
+          "revision": "2e32b3aec1e4bf0c87b096ae9a9ca41df026028a",
+          "version": "1.6.3"
+        }
+      },
+      {
         "package": "jingweili.me-models",
         "repositoryURL": "https://github.com/ljw980105/jingweili.me-models.git",
         "state": {

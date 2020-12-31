@@ -17,7 +17,9 @@ struct FileBrowserView: View {
         NavigationView {
             List {
                 ForEach(viewModel.files, id: \.name) { file in
-                    FileCellView(file: file)
+                    NavigationLink(destination: FileViewerView(file: file, directory: FileDirectory(state: directory))) {
+                        FileCellView(file: file)
+                    }
                 }
             }
                 .navigationBarTitleDisplayMode(.inline)

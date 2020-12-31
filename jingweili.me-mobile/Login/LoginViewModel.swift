@@ -23,7 +23,7 @@ class LoginViewModel: ObservableObject {
                 }
             }, receiveValue: { token in
                 print(token.token)
-                UserDefaults.standard.setValue(token.token, forKey: "session")
+                SessionToken.set(token: token.token)
                 completed()
             })
             .store(in: &cancellables)
